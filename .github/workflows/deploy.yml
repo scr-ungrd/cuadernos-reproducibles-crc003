@@ -20,6 +20,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: |
+          pip install --quiet \
+            numpy scipy matplotlib pillow pandas requests \
+            rasterio pyproj xarray netcdf4 \
+            jupyter nbconvert ipython ipykernel
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -27,7 +38,31 @@ jobs:
       - name: Install mystmd
         run: npm install -g mystmd
 
-      - name: Build site (sin re-ejecutar notebooks)
+      - name: Execute notebook 1 — batimetría
+        working-directory: notebooks
+        run: |
+          jupyter nbconvert --to notebook --execute --inplace \
+            --ExecutePreprocessor.timeout=300 \
+            --ExecutePreprocessor.kernel_name=python3 \
+            01-bathymetry.ipynb
+
+      - name: Execute notebook 2 — simulación
+        working-directory: notebooks
+        run: |
+          jupyter nbconvert --to notebook --execute --inplace \
+            --ExecutePreprocessor.timeout=300 \
+            --ExecutePreprocessor.kernel_name=python3 \
+            02-simulation.ipynb
+
+      - name: Execute notebook 3 — visualización
+        working-directory: notebooks
+        run: |
+          jupyter nbconvert --to notebook --execute --inplace \
+            --ExecutePreprocessor.timeout=300 \
+            --ExecutePreprocessor.kernel_name=python3 \
+            03-visualization.ipynb
+
+      - name: Build MyST site
         run: myst build --html
         env:
           BASE_URL: /cuadernos-reproducibles-crc003
