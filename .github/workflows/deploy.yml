@@ -30,6 +30,7 @@ jobs:
       - name: Build site (sin re-ejecutar notebooks)
         run: myst build --html
         env:
+          BASE_URL: /cuadernos-reproducibles-crc003
           NODE_OPTIONS: --max-old-space-size=4096
 
       - name: Upload Pages artifact
