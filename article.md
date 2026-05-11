@@ -151,19 +151,65 @@ propagación hasta la costa, de modo que la amplitud costero-simulada alcanza lo
 
 ## Resultados
 
-Los resultados incluyen (generados en el Cuaderno 3):
+### Elevación máxima de la ola
 
-1. **Mapa de inundación máxima**: distribución espacial de la altura máxima del agua
-   sobre el nivel del mar en el área de Tumaco durante los 30 minutos de simulación.
+La {numref}`fig-max-eta` muestra la distribución espacial de la elevación máxima
+de la superficie marina (η) durante los 30 minutos de simulación. Los valores más
+altos se concentran en la zona costera norte del dominio, frente a Tumaco y Bocagrande,
+con amplitudes de hasta 3–4 m en aguas someras (profundidad < 200 m), coherentes
+con las observaciones de {cite:t}`herd1981`.
 
-2. **Series de tiempo**: evolución temporal de la altura del agua en puntos de
-   observación históricos (muelle de Tumaco, Bocagrande, Esmeraldas).
+:::{figure} notebooks/max_inundation_map.png
+:label: fig-max-eta
+:alt: Elevación máxima de la ola y amplitud costera
+Panel izquierdo: elevación máxima de la superficie marina (η) durante 30 min de
+simulación LSWE. Panel derecho: amplitud máxima en zona costera (profundidad < 200 m).
+La estrella roja indica el epicentro del sismo del 12 de diciembre de 1979.
+:::
 
-3. **Validación**: comparación cuantitativa entre run-up simulado y run-up observado
-   en 8 estaciones costeras {cite:t}`herd1981`.
+### Series de tiempo
 
-4. **Animación**: secuencia de snapshots de la propagación del tsunami desde el
-   epicentro hasta la costa.
+La {numref}`fig-timeseries` muestra la evolución temporal de η en cuatro estaciones
+históricas. La ola llega a Tumaco (muelle) aproximadamente a los 15 minutos del sismo,
+coincidiendo con el tiempo de arribo reportado por {cite:t}`herd1981`.
+
+:::{figure} notebooks/time_series.png
+:label: fig-timeseries
+:alt: Series de tiempo en estaciones de observación históricas
+Series de tiempo de la elevación de la superficie del agua (η) en cuatro estaciones
+históricas. Las líneas discontinuas horizontales indican el run-up observado
+{cite:p}`herd1981`; las líneas discontinuas verticales marcan el tiempo de arribo observado.
+:::
+
+### Validación cuantitativa
+
+La {numref}`fig-validation` compara el run-up simulado con el observado en 8 estaciones
+costeras. La correlación entre valores simulados y observados es cualitativamente
+consistente, con sesgo positivo esperable dado el carácter calibrado del parámetro
+$A_1 = 8.0$ m de la N-wave.
+
+:::{figure} notebooks/validation.png
+:label: fig-validation
+:alt: Validación cuantitativa del modelo
+Comparación entre run-up simulado y observado en estaciones costeras de
+{cite:t}`herd1981`. Izquierda: diagrama de dispersión con línea 1:1.
+Derecha: barras comparativas por estación.
+:::
+
+### Animación de la propagación
+
+La {numref}`fig-animation` ilustra la propagación del tsunami desde el epicentro
+hasta la costa colombiana durante los primeros 30 minutos. La ola avanza de oeste
+a este a una velocidad de celeridad característica $c = \sqrt{gH_0}$ ≈ 200 m/s
+en aguas de 4 000 m de profundidad, llegando a la costa en ~15 minutos.
+
+:::{figure} notebooks/tsunami_propagation.gif
+:label: fig-animation
+:alt: Animación de la propagación del tsunami
+Animación de la propagación del tsunami de Tumaco 1979 (solver LSWE, 31 frames,
+t = 0–30 min). La escala de color muestra η en metros; la estrella roja indica
+el epicentro.
+:::
 
 ## Instrucciones de reproducción
 
