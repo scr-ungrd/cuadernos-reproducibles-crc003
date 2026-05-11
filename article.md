@@ -229,5 +229,4 @@ en la región.
 ## Referencias
 
 ```{bibliography}
-:style: unsrt
 ```
