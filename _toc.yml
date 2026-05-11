@@ -1,0 +1,6 @@
+format: jb-book
+root: article
+chapters:
+  - file: notebooks/01-bathymetry
+  - file: notebooks/02-simulation
+  - file: notebooks/03-visualization

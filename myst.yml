@@ -1,0 +1,69 @@
+version: 1
+project:
+  title: Simulación del Tsunami de Tumaco de 1979
+  subtitle: Reproducción numérica de la propagación del tsunami del 12 de diciembre de 1979 (Mw 8.2) mediante ecuaciones de aguas someras en TPU de Google
+  authors:
+    - id: mromero
+      name: Mauricio Romero T.
+      email: mauricio.romero.t@gmail.com
+      corresponding: true
+      roles:
+        - Conceptualization
+        - Methodology
+        - Software
+        - Visualization
+        - Writing – original draft
+  keywords:
+    - tsunami
+    - Tumaco
+    - Colombia
+    - Pacífico colombiano
+    - aguas someras no lineales
+    - TPU
+    - Google Colab
+    - cuaderno reproducible
+    - zona de subducción Nazca
+    - 1979
+  date: 2026-05-11
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: Apache-2.0
+  github: https://github.com/mromerot/cuadernos-reproducibles-crc003
+  subject: Reproducible Notebook Submission
+  venue:
+    title: Notebooks Now!
+    url: https://data.agu.org/notebooks-now/
+  requirements:
+    - environment.yml
+  resources:
+    - data/README.md
+    - data/observaciones_1979.csv
+  exports:
+    - format: meca
+      article: article.md
+      output: meca.zip
+    - format: jats
+      article: article.md
+      sub_articles:
+        - notebooks/01-bathymetry.md
+        - notebooks/02-simulation.ipynb
+        - notebooks/03-visualization.ipynb
+    - format: pdf
+      article: article.md
+      output: article.pdf
+      template: agu2019
+  jupyter: true
+site:
+  title: Tsunami Tumaco 1979 — Simulación Reproducible
+  options:
+    logo_text: Tsunami Tumaco 1979
+  nav:
+    - title: MyST Docs
+      url: https://mystmd.org/guide
+  actions:
+    - title: Notebooks Now!
+      url: https://data.agu.org/notebooks-now/
+    - title: tsunamiTPUlab
+      url: https://github.com/smarras79/tsunamiTPUlab
+  template: article-theme

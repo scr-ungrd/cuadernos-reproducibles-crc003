@@ -1,0 +1,9 @@
+estacion,lat,lon,runup_m,tiempo_arr_min,fuente
+Tumaco (muelle),1.82,-78.76,5.0,15,Herd et al. 1981
+Tumaco (playa),1.80,-78.80,4.5,15,Herd et al. 1981
+Bocagrande,1.73,-78.94,3.0,18,Herd et al. 1981
+San Juan,1.23,-77.97,2.5,25,NOAA NGDC
+El Charco,2.47,-78.11,1.5,30,NOAA NGDC
+Esmeraldas (Ecuador),0.97,-79.65,4.0,12,Herd et al. 1981
+Buenaventura,3.88,-77.02,0.8,45,NOAA NGDC
+Salinas (Ecuador),-2.20,-80.97,1.2,35,NOAA NGDC

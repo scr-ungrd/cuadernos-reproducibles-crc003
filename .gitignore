@@ -1,0 +1,15 @@
+# Datos procesados y outputs (demasiado grandes para el repo)
+*.tif
+*.nc
+*.np
+output_*/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Archivos de build MyST
+_build/
+.myst_cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
