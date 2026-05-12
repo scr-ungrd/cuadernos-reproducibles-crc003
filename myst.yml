@@ -30,6 +30,8 @@ project:
     content: CC-BY-4.0
     code: Apache-2.0
   github: https://github.com/scr-ungrd/cuadernos-reproducibles-crc003
+  binder: https://mybinder.org/v2/gh/scr-ungrd/cuadernos-reproducibles-crc003/main
+  # banner: ./images/banner.png  # añadir imagen horizontal ~1600×400 px para activar
   subject: Reproducible Notebook Submission
   venue:
     title: Notebooks Now!
@@ -57,13 +59,16 @@ project:
 site:
   title: Tsunami Tumaco 1979 — Simulación Reproducible
   options:
-    logo_text: Tsunami Tumaco 1979
+    logo_text: "Riesgos · UNGRD"
   nav:
-    - title: MyST Docs
-      url: https://mystmd.org/guide
+    - title: "Inicio del proyecto"
+      url: https://scr-ungrd.github.io/riesgos
+    - title: "Repositorio"
+      url: https://github.com/scr-ungrd/cuadernos-reproducibles-crc003
   actions:
+    - title: "Abrir en Colab (cuaderno 1)"
+      url: https://colab.research.google.com/github/scr-ungrd/cuadernos-reproducibles-crc003/blob/main/notebooks/01-bathymetry.ipynb
+      static: false
     - title: Notebooks Now!
       url: https://data.agu.org/notebooks-now/
-    - title: Código fuente
-      url: https://github.com/scr-ungrd/cuadernos-reproducibles-crc003
   template: article-theme
