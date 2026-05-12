@@ -32,10 +32,11 @@ project:
   github: https://github.com/scr-ungrd/cuadernos-reproducibles-crc003
   binder: https://mybinder.org/v2/gh/scr-ungrd/cuadernos-reproducibles-crc003/main
   # banner: ./images/banner.png  # añadir imagen horizontal ~1600×400 px para activar
-  subject: Reproducible Notebook Submission
+  subject: "Climate & disaster risk assessment"
   venue:
-    title: Notebooks Now!
-    url: https://data.agu.org/notebooks-now/
+    title: "Riesgos · UNGRD Cuadernos Reproducibles"
+    short_title: "Riesgos UNGRD"
+    url: https://scr-ungrd.github.io/riesgos
   requirements:
     - environment.yml
   resources:
@@ -69,6 +70,10 @@ site:
     - title: "Abrir en Colab (cuaderno 1)"
       url: https://colab.research.google.com/github/scr-ungrd/cuadernos-reproducibles-crc003/blob/main/notebooks/01-bathymetry.ipynb
       static: false
-    - title: Notebooks Now!
-      url: https://data.agu.org/notebooks-now/
+    - title: "Abrir en Colab (cuaderno 2)"
+      url: https://colab.research.google.com/github/scr-ungrd/cuadernos-reproducibles-crc003/blob/main/notebooks/02-simulation.ipynb
+      static: false
+    - title: "Abrir en Colab (cuaderno 3)"
+      url: https://colab.research.google.com/github/scr-ungrd/cuadernos-reproducibles-crc003/blob/main/notebooks/03-visualization.ipynb
+      static: false
   template: article-theme
