@@ -3,6 +3,20 @@ title: Simulación del Tsunami de Tumaco de 1979
 subtitle: Reproducción numérica de la propagación del tsunami del 12 de diciembre de 1979 (Mw 8.2) mediante ecuaciones de aguas someras linealizadas en Google Colab
 ---
 
+**Cuaderno 1 — Preparación del DEM:**
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scr-ungrd/cuadernos-reproducibles-crc003/blob/main/notebooks/01-bathymetry.ipynb)
+[![Abrir en Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/scr-ungrd/cuadernos-reproducibles-crc003/main?filepath=notebooks/01-bathymetry.ipynb)
+
+**Cuaderno 2 — Simulación LSWE:**
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scr-ungrd/cuadernos-reproducibles-crc003/blob/main/notebooks/02-simulation.ipynb)
+[![Abrir en Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/scr-ungrd/cuadernos-reproducibles-crc003/main?filepath=notebooks/02-simulation.ipynb)
+
+**Cuaderno 3 — Visualización y validación:**
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scr-ungrd/cuadernos-reproducibles-crc003/blob/main/notebooks/03-visualization.ipynb)
+[![Abrir en Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/scr-ungrd/cuadernos-reproducibles-crc003/main?filepath=notebooks/03-visualization.ipynb)
+
+---
+
 ## Resumen
 
 El 12 de diciembre de 1979, un terremoto de magnitud Mw 8.2 en la zona de subducción
