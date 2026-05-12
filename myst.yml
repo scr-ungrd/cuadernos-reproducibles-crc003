@@ -31,7 +31,7 @@ project:
     code: Apache-2.0
   github: https://github.com/scr-ungrd/cuadernos-reproducibles-crc003
   binder: https://mybinder.org/v2/gh/scr-ungrd/cuadernos-reproducibles-crc003/main
-  # banner: ./images/banner.png  # añadir imagen horizontal ~1600×400 px para activar
+  banner: ./images/banner.png
   subject: "Climate & disaster risk assessment"
   venue:
     title: "Riesgos · UNGRD Cuadernos Reproducibles"
@@ -67,13 +67,7 @@ site:
     - title: "Repositorio"
       url: https://github.com/scr-ungrd/cuadernos-reproducibles-crc003
   actions:
-    - title: "Abrir en Colab (cuaderno 1)"
-      url: https://colab.research.google.com/github/scr-ungrd/cuadernos-reproducibles-crc003/blob/main/notebooks/01-bathymetry.ipynb
-      static: false
-    - title: "Abrir en Colab (cuaderno 2)"
-      url: https://colab.research.google.com/github/scr-ungrd/cuadernos-reproducibles-crc003/blob/main/notebooks/02-simulation.ipynb
-      static: false
-    - title: "Abrir en Colab (cuaderno 3)"
+    - title: "Abrir en Colab"
       url: https://colab.research.google.com/github/scr-ungrd/cuadernos-reproducibles-crc003/blob/main/notebooks/03-visualization.ipynb
       static: false
   template: article-theme
