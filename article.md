@@ -278,7 +278,5 @@ en la región.
 - **Batimetría GEBCO 2023**: https://doi.org/10.5285/f98b053b-0cbc-6c23-e053-6c86abc0af7b {cite:p}`gebco2023`
 - **Observaciones históricas 1979**: archivo `data/observaciones_1979.csv` (este repositorio)
 
-## Referencias
-
 ```{bibliography}
 ```
