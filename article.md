@@ -1,5 +1,5 @@
 ---
-title: Simulación del Tsunami de Tumaco de 1979
+title: Simulación del Tsunami de Tumaco de 1979 [Piloto, sin validar]
 subtitle: Reproducción numérica de la propagación del tsunami del 12 de diciembre de 1979 (Mw 8.2) mediante ecuaciones de aguas someras linealizadas en Google Colab
 ---
 
