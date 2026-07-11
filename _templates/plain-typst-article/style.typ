@@ -6,7 +6,10 @@
 // have been removed so this can be used as a generic, unbranded two-column
 // article layout.
 
-#let font-sans-serif = "Helvetica Neue"
+// "Liberation Sans" is metric-compatible with Arial/Helvetica and is
+// installed explicitly in CI (fonts-liberation) so the PDF renders the
+// same way on GitHub Actions (Ubuntu) as it does locally.
+#let font-sans-serif = "Liberation Sans"
 
 // Colours (kept from the source template, renamed to be brand-neutral).
 #let zebra-gray  = rgb(luma(95.25%))

@@ -62,6 +62,9 @@ jobs:
             --ExecutePreprocessor.kernel_name=python3 \
             03-visualization.ipynb
 
+      - name: Install fonts (Liberation)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-liberation
+
       - name: Install Typst
         run: |
           curl -fsSL https://github.com/typst/typst/releases/download/v0.15.0/typst-x86_64-unknown-linux-musl.tar.xz | tar -xJ
