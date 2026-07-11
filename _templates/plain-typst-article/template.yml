@@ -1,0 +1,39 @@
+jtex: v1
+kind: typst
+title: Plain Two-Column Article (unbranded)
+description: >-
+  Generic two-column academic article layout, adapted from the
+  "cellpress-unofficial" Typst template with all Cell Press/Elsevier
+  branding (logo, fixed journal name) removed.
+template: template.typ
+
+files:
+  - template.typ
+  - style.typ
+
+authors:
+  - name: Subdirección para el Conocimiento del Riesgo (UNGRD)
+
+version: 0.1.0
+license: MIT
+
+doc:
+  - id: title
+    required: true
+  - id: authors
+    required: true
+  - id: affiliations
+  - id: doi
+  - id: bibliography
+
+options: []
+
+parts:
+  - id: abstract
+    required: false
+  - id: data_availability
+    title: Data Availability
+    required: false
+  - id: keypoints
+    required: false
+    as_list: true

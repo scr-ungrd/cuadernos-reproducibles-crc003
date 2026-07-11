@@ -42,6 +42,9 @@ project:
   resources:
     - data/README.md
     - data/observaciones_1979.csv
+  downloads:
+    - id: article-pdf
+      title: Generar PDF
   exports:
     - format: meca
       article: article.md
@@ -54,8 +57,13 @@ project:
         - notebooks/03-visualization.ipynb
     - format: pdf
       article: article.md
-      output: article.pdf
+      output: article-agu.pdf
       template: agu2019
+    - format: typst
+      article: article.md
+      output: article.pdf
+      template: ./_templates/plain-typst-article
+      id: article-pdf
   jupyter: true
 site:
   title: Tsunami Tumaco 1979 — Simulación Reproducible

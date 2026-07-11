@@ -4,8 +4,13 @@ subtitle: Reproducción numérica de la propagación del tsunami del 12 de dicie
 ---
 
 **Cuaderno 3 — Visualización y validación:**
+
++++ {"no-pdf": true}
+
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/scr-ungrd/cuadernos-reproducibles-crc003/blob/main/notebooks/03-visualization.ipynb)
 [![Abrir en Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/scr-ungrd/cuadernos-reproducibles-crc003/main?filepath=notebooks/03-visualization.ipynb)
+
++++
 
 ---
 
