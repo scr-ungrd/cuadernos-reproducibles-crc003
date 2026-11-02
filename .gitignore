@@ -1,5 +1,6 @@
 # Datos procesados y outputs (demasiado grandes para el repo)
 *.tif
+!data/*.tif
 *.nc
 *.np
 output_*/
@@ -13,3 +14,9 @@ _build/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
+
+# Salidas de los cuadernos (se generan en CI y en Colab)
+notebooks/output/
+notebooks/*.png
+notebooks/*.gif
+*.npz
