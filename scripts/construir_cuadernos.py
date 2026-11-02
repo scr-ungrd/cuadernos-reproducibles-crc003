@@ -20,9 +20,18 @@ def code(s):
     return nbf.v4.new_code_cell(s.strip("\n"))
 
 
+TEXTO_ADVERTENCIA = """
+:::{danger} Ejercicio sin validar: no usar para tomar decisiones
+Este cuaderno **no ha sido validado por una persona experta** en modelación de tsunamis. Es un ejercicio de reproducibilidad y de aprendizaje. Sus resultados **no deben usarse para tomar decisiones** de gestión del riesgo, ordenamiento territorial, diseño de obras, planes de evacuación ni alertas.
+
+Falta, como mínimo: la revisión por una persona experta; la distribución de deslizamiento real del evento (la geometría de la falla es un supuesto); la verificación de las observaciones de 1979 contra las fuentes primarias; y un modelo no lineal con cálculo de inundación.
+:::
+"""
+
+
 def guardar(nombre, celdas):
     nb = nbf.v4.new_notebook()
-    nb.cells = celdas
+    nb.cells = [md(TEXTO_ADVERTENCIA)] + list(celdas)
     nb.metadata = {"kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"},
                    "language_info": {"name": "python"}}
     nbf.write(nb, RAIZ / "notebooks" / nombre)
