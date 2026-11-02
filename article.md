@@ -14,6 +14,12 @@ subtitle: Propagación del tsunami del 12 de diciembre de 1979 (Mw 8,3) con una 
 
 ---
 
+:::{danger} Ejercicio sin validar: no usar para tomar decisiones
+Este cuaderno **no ha sido validado por una persona experta** en modelación de tsunamis. Es un ejercicio de reproducibilidad y de aprendizaje. Sus resultados **no deben usarse para tomar decisiones** de gestión del riesgo, ordenamiento territorial, diseño de obras, planes de evacuación ni alertas.
+
+Falta, como mínimo: la revisión por una persona experta; la distribución de deslizamiento real del evento (la geometría de la falla es un supuesto); la verificación de las observaciones de 1979 contra las fuentes primarias; y un modelo no lineal con cálculo de inundación (las amplitudes simuladas están sobreestimadas y el modelo no calcula inundación).
+:::
+
 ## Resumen
 
 El 12 de diciembre de 1979 un terremoto de la zona de subducción colombo-ecuatoriana generó un tsunami que causó cerca de 452 muertes en Nariño {cite:p}`escobar2020tsunami`.
