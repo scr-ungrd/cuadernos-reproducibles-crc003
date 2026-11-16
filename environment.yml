@@ -1,0 +1,32 @@
+# =====================================================================
+# Conda environment for Binder reproducibility
+# Sismicidad de Colombia · CRC-003
+# =====================================================================
+name: riesgos-sismicidad
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+
+  # Core scientific stack
+  - numpy>=1.26
+  - pandas>=2.1
+  - scipy>=1.11
+  - matplotlib>=3.8
+
+  # HTTP / data retrieval
+  - requests>=2.31
+
+  # Interactive maps
+  - folium>=0.16
+  - branca>=0.7
+
+  # Notebook tooling
+  - jupyterlab>=4.0
+  - notebook>=7.0
+  - ipykernel>=6.27
+
+  # Utilities
+  - tqdm>=4.66

@@ -1,0 +1,12 @@
+# =====================================================================
+# Tabla de contenido — Sismicidad de Colombia · CRC-003
+# La TOC efectiva está en `myst.yml` (sección project.toc).
+# Este archivo mantiene compatibilidad con Jupyter Book legacy.
+# =====================================================================
+format: jb-book
+root: sismicidad-colombia
+chapters:
+  - file: sismicidad-colombia
+  # Cuando se agreguen sub-notebooks, enumerarlos aquí:
+  # - file: notebooks/02_psha_simplificado
+  # - file: notebooks/03_microzonificacion

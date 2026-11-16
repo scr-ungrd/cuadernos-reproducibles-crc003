@@ -1,0 +1,140 @@
+# =====================================================================
+# MyST configuration — Sismicidad de Colombia · CRC-003
+# Alineado con el patrón del patrón de los cuadernos de la serie (scr-ungrd)
+# =====================================================================
+version: 1
+
+project:
+  id: cuadernos-reproducibles-crc003
+  title: "Análisis de Sismicidad de Colombia"
+  short_title: "Sismicidad Colombia"
+  description: >-
+    Cuaderno reproducible para el análisis exploratorio de la sismicidad
+    de Colombia usando el catálogo público del USGS (2000–2024). Implementa
+    la relación de Gutenberg-Richter, análisis de profundidad focal,
+    variación estacional y cartografía interactiva de epicentros.
+
+  authors:
+    - name: Subdirección para el Conocimiento del Riesgo
+      affiliations:
+        - ungrd
+
+  affiliations:
+    - id: ungrd
+      institution: Unidad Nacional para la Gestión del Riesgo de Desastres
+      department: Subdirección de Conocimiento del Riesgo
+      city: Bogotá
+      country: Colombia
+      url: https://www.gestiondelriesgo.gov.co
+      ror: ""  # diligenciar cuando se obtenga ROR institucional
+
+  date: 2026-11-16
+
+  keywords:
+    - sismicidad
+    - Colombia
+    - USGS
+    - amenaza sísmica
+    - Gutenberg-Richter
+    - profundidad focal
+    - folium
+    - FDSN
+    - NSR-10
+    - zonas de subducción
+    - UNGRD
+    - gestión del riesgo
+
+  subject: "Seismic hazard & disaster risk assessment"
+
+  venue:
+    title: "Riesgos · UNGRD Cuadernos Reproducibles"
+    short_title: "Riesgos UNGRD"
+    url: https://scr-ungrd.github.io/riesgos
+
+  license:
+    code: MIT
+    content: CC-BY-4.0
+
+  open_access: true
+
+  github: https://github.com/scr-ungrd/cuadernos-reproducibles-crc003
+  binder: https://mybinder.org/v2/gh/scr-ungrd/cuadernos-reproducibles-crc003/main
+  banner: ./images/banner.png
+
+  # DOI a diligenciar tras release v0.1.0 en Zenodo
+  # doi: ""
+
+  bibliography:
+    - references.bib
+
+  downloads:
+    - id: article-pdf
+      title: Generar PDF
+
+  # Exports — formatos generados con `myst build --all`
+  exports:
+    - format: pdf
+      template: agu-journal
+      output: exports/article-agu.pdf
+      article: sismicidad-colombia.ipynb
+    - format: jats
+      output: exports/article.xml
+      article: sismicidad-colombia.ipynb
+    - format: meca
+      output: exports/article.meca.zip
+      article: sismicidad-colombia.ipynb
+    - format: typst
+      article: sismicidad-colombia.ipynb
+      output: article.pdf
+      template: ./_templates/plain-typst-article
+      id: article-pdf
+
+  toc:
+    - file: sismicidad-colombia.ipynb
+
+  jupyter: true
+
+  numbering:
+    figures: true
+    equations: true
+    tables: true
+    sections: false
+
+  abbreviations:
+    UNGRD: Unidad Nacional para la Gestión del Riesgo de Desastres
+    SNGRD: Sistema Nacional de Gestión del Riesgo de Desastres
+    SCR: Subdirección para el Conocimiento del Riesgo
+    USGS: United States Geological Survey
+    SGC: Servicio Geológico Colombiano
+    FDSN: Federation of Digital Seismograph Networks
+    NSR: Norma Sismo-Resistente de Colombia
+    PSHA: Probabilistic Seismic Hazard Analysis
+    GR: Gutenberg-Richter
+    IDEAM: Instituto de Hidrología, Meteorología y Estudios Ambientales
+
+site:
+  template: https://github.com/myst-templates/article-theme/archive/4acce1eba558b301c2aadca99a7804aa6e294e1e.zip
+  options:
+    logo_text: "Riesgos · UNGRD"
+    primary_color: "#0154a5"
+    secondary_color: "#ffffff"
+    accent_color: "#2563eb"
+    launch_buttons:
+      binderhub_url: https://mybinder.org
+      thebe: true
+  nav:
+    - title: "Inicio del proyecto"
+      url: https://scr-ungrd.github.io/riesgos
+    - title: "Repositorio"
+      url: https://github.com/scr-ungrd/cuadernos-reproducibles-crc003
+  actions:
+    - title: "Abrir en Colab"
+      url: https://colab.research.google.com/github/scr-ungrd/cuadernos-reproducibles-crc003/blob/main/sismicidad-colombia.ipynb
+      static: false
+    - title: "Abrir en Binder"
+      url: https://mybinder.org/v2/gh/scr-ungrd/cuadernos-reproducibles-crc003/main?filepath=sismicidad-colombia.ipynb
+      static: false
+    # "Descargar PDF" se habilita tras ejecutar `myst build --pdf`
+    # - title: "Descargar PDF"
+    #   url: /exports/article.pdf
+    #   static: true
