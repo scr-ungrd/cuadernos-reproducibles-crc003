@@ -10,7 +10,7 @@ project:
   short_title: "Sismicidad Colombia"
   description: >-
     Cuaderno reproducible para el análisis exploratorio de la sismicidad
-    de Colombia usando el catálogo público del USGS (2000–2024). Implementa
+    de Colombia usando el catálogo público del USGS (2000 a 2026). Implementa
     la relación de Gutenberg-Richter, análisis de profundidad focal,
     variación estacional y cartografía interactiva de epicentros.
 
