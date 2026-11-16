@@ -20,6 +20,7 @@ dependencies:
   - requests>=2.31
 
   # Interactive maps
+  - plotly>=5.18
   - folium>=0.16
   - branca>=0.7
 
