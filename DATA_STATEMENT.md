@@ -20,7 +20,7 @@ Los 18 archivos publicados (catálogos, ficha departamental, figuras, mapas y an
 | Catálogos del USGS (`data/`) | Dominio público (USGS) |
 | Ficha, figuras, mapas y animación | CC BY 4.0, con reconocimiento al USGS y a geoBoundaries/OpenStreetMap |
 
-La licencia de los productos que incorporan límites de geoBoundaries (ODbL 1.0) debe revisarse. <confirmar con asesoría jurídica>
+Los límites de geoBoundaries (ODbL 1.0, fuente OpenStreetMap) obligan a atribuir y a mantener la ODbL sobre las bases de datos derivadas; los mapas y figuras que solo los muestran son «obras producidas» y requieren atribución y aviso de licencia. Las tablas que redistribuyan la geometría quedan bajo ODbL. <confirmar con asesoría jurídica>
 
 ## Datos con acceso restringido
 
