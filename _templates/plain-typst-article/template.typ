@@ -78,5 +78,5 @@
 [# endif #]
 
 [# if doc.bibliography #]
-#bibliography("[- doc.bibliography | join(", ") -]", title: "References", style: "apa")
+#bibliography("[- doc.bibliography | join(", ") -]", title: "Referencias", style: "apa")
 [# endif #]

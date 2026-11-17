@@ -64,8 +64,6 @@ project:
   # DOI a diligenciar tras release v0.1.0 en Zenodo
   # doi: ""
 
-  bibliography:
-    - references.bib
 
   downloads:
     - id: article-pdf
