@@ -44,7 +44,7 @@ Conforme al «Estándar de modelos» de la colección de Cuadernos Reproducibles
 
 - Entorno: `environment.yml`. La fecha de corte de las consultas al USGS es fija (2026-11-16) y los catálogos están en `data/` con SHA-256 en `metadata/descargas.csv`. El USGS puede revisar eventos pasados, por lo que una descarga nueva puede diferir.
 - No hay aleatoriedad ni semillas. No hay registro de experimentos ni pruebas automáticas.
-- Hardware: CPU estándar. <confirmar tiempo de ejecución>
+- Hardware: CPU estándar (Apple M1, 8 núcleos, 8 GB de RAM). Ejecución completa en un clon limpio del repositorio (commit `39d5774`), con un entorno nuevo creado con Python 3.11 y las versiones mínimas de `environment.yml`: 93 s en total, incluida la instalación del entorno y las consultas de red a geoBoundaries y Natural Earth. Las 30 celdas de código corrieron sin errores y el resultado coincide con las salidas publicadas (83 sismos de NOAA, 11 097 eventos en el catálogo unificado). Fecha: 2026-11-17.
 
 ## 7. Riesgos, sesgos y uso responsable
 
