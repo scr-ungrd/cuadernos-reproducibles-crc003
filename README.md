@@ -37,7 +37,7 @@ Código bajo licencia MIT; texto y figuras bajo CC BY 4.0. Los catálogos del US
 
 ## Cita y DOI
 
-Los metadatos de cita están en [`CITATION.cff`](CITATION.cff). Esta versión aún no tiene DOI.
+Los metadatos de cita están en [`CITATION.cff`](CITATION.cff). El DOI de todas las versiones es [10.5281/zenodo.24322597](https://doi.org/10.5281/zenodo.24322597); la versión 0.1.0 tiene el DOI [10.5281/zenodo.24322598](https://doi.org/10.5281/zenodo.24322598).
 
 ## Uso de inteligencia artificial
 

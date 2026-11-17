@@ -8,7 +8,7 @@ authors:
   - name: "Subdirección para el Conocimiento del Riesgo, Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD)"
 repository-code: "https://github.com/scr-ungrd/cuadernos-reproducibles-crc003"
 url: "https://scr-ungrd.github.io/cuadernos-reproducibles-crc003/"
-# doi: "10.5281/zenodo.<completar tras archivar el release>"
+doi: "10.5281/zenodo.24322597"
 license: CC-BY-4.0
 keywords:
   - sismicidad

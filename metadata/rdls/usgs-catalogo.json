@@ -1,5 +1,5 @@
 {
-  "id": "https://github.com/scr-ungrd/cuadernos-reproducibles-crc003/tree/main#usgs-catalogo",
+  "id": "https://doi.org/10.5281/zenodo.24322598#usgs-catalogo",
   "title": "Catálogo sísmico del USGS para Colombia y su área de influencia, 1900-2026",
   "description": "Dos consultas al catálogo ComCat del USGS con fecha de corte del 2026-11-16: el catálogo base (4 769 eventos de M ≥ 3,0 desde 2000) y el catálogo ampliado (11 085 terremotos de M ≥ 2,5 desde 1900). La medida de intensidad es la magnitud, que mezcla tipos (Mw, mb, Ml, Ms) sin homogeneizar.",
   "risk_data_type": [

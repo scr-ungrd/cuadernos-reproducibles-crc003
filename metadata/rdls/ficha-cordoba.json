@@ -1,5 +1,5 @@
 {
-  "id": "https://github.com/scr-ungrd/cuadernos-reproducibles-crc003/tree/main#ficha-cordoba",
+  "id": "https://doi.org/10.5281/zenodo.24322598#ficha-cordoba",
   "title": "Ficha sísmica del departamento de Córdoba y su entorno de 100 km",
   "description": "Indicadores sísmicos de Córdoba calculados con el catálogo ampliado del USGS y los límites de geoBoundaries: sismos en el entorno, magnitud de completitud, valor b de Gutenberg-Richter, periodos de retorno y mayores sismos. Es un piloto sin validar por una persona experta.",
   "risk_data_type": [

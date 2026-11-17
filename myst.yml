@@ -61,8 +61,7 @@ project:
   binder: https://mybinder.org/v2/gh/scr-ungrd/cuadernos-reproducibles-crc003/main
   banner: ./images/banner.png
 
-  # DOI a diligenciar tras release v0.1.0 en Zenodo
-  # doi: ""
+  doi: 10.5281/zenodo.24322598
 
 
   downloads:

@@ -22,5 +22,5 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 - `images/banner.png` se genera con `scripts/generar_banner.py` desde el catálogo real. La imagen anterior no se generaba en el repositorio y no reproducía la sismicidad del catálogo.
 
 ### Pendiente
-- Actualizar `DATA_STATEMENT.md`, el README y el RDLS con el DOI de la versión archivada en Zenodo.
+- Ninguno de DOI: la versión 0.1.0 está archivada en Zenodo (`10.5281/zenodo.24322598`).
 - Confirmar la licencia de la base de sismos de NOAA/NCEI, aplicar la prueba CARE y archivar un *release* en Zenodo.
