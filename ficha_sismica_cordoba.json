@@ -1,0 +1,67 @@
+{
+  "departamento": "Córdoba",
+  "radio_km": 100,
+  "mag_minima_catalogo": 2.5,
+  "periodo": [
+    1900,
+    2026
+  ],
+  "mag_completa": 4.5,
+  "anio_completo": 1973,
+  "n_dentro": 38,
+  "n_hasta_50km": 226,
+  "n_en_radio": 505,
+  "n_completos_en_radio": 262,
+  "pct_superficiales": 93.12977099236642,
+  "b": 1.1551792310523046,
+  "b_error": 0.07136721123274799,
+  "retorno_anios": {
+    "5": 0.7774061998331683,
+    "6": 11.112895509905563,
+    "7": 158.85703849619637
+  },
+  "mayor": {
+    "mag": 7.2,
+    "fecha": "1992-10-18",
+    "prof_km": 10.0,
+    "lugar": "11 km NNW of Murindó, Colombia",
+    "dist_km": 62.747563283501286
+  },
+  "mayores": [
+    {
+      "mag": 7.2,
+      "fecha": "1992-10-18",
+      "prof_km": 10.0,
+      "lugar": "11 km NNW of Murindó, Colombia",
+      "dist_km": 62.747563283501286
+    },
+    {
+      "mag": 6.7,
+      "fecha": "1992-10-17",
+      "prof_km": 14.3,
+      "lugar": "15 km S of Murindó, Colombia",
+      "dist_km": 76.28763970675347
+    },
+    {
+      "mag": 6.5,
+      "fecha": "2023-05-25",
+      "prof_km": 13.0,
+      "lugar": "45 km NE of Puerto Obaldía, Panama",
+      "dist_km": 74.5724413561081
+    },
+    {
+      "mag": 6.4,
+      "fecha": "1977-08-31",
+      "prof_km": 33.0,
+      "lugar": "18 km ENE of Mutatá, Colombia",
+      "dist_km": 5.565620011182246
+    },
+    {
+      "mag": 6.38,
+      "fecha": "1911-04-10",
+      "prof_km": 70.0,
+      "lugar": "43 km E of El Bagre, Colombia",
+      "dist_km": 81.74505527797446
+    }
+  ]
+}
