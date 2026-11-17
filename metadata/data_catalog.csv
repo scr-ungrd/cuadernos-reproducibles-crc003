@@ -1,0 +1,19 @@
+archivo,descripcion,formato,tamano_bytes,fuentes,licencia
+data/usgs_catalogo_m3_2000-2026-11-16.csv,"Catálogo base del USGS: 4 769 eventos de M ≥ 3,0 entre 2000-01-01 y 2026-11-16",CSV,875325,USGS ComCat,Dominio público (USGS)
+data/usgs_catalogo_ampliado_1900-2026-11-16.csv,"Catálogo ampliado del USGS: 11 085 terremotos de M ≥ 2,5 entre 1900 y 2026-11-15",CSV,1927142,USGS ComCat,Dominio público (USGS)
+ficha_sismica_cordoba.json,Indicadores sísmicos del departamento de Córdoba y su entorno de 100 km,JSON,1499,USGS ComCat; NOAA/NCEI; geoBoundaries,CC BY 4.0
+ficha_sismica_cordoba.md,Ficha departamental de Córdoba en texto,Markdown,1247,USGS ComCat; NOAA/NCEI; geoBoundaries,CC BY 4.0
+ficha_sismica_cordoba.png,Ficha departamental de Córdoba en cuatro paneles,PNG,654792,USGS ComCat; NOAA/NCEI; geoBoundaries,CC BY 4.0
+animacion_ultimo_cuadro.png,Figura del cuaderno,PNG,715891,USGS ComCat; NOAA/NCEI; geoBoundaries; Natural Earth,CC BY 4.0
+completitud_acumulado.png,Figura del cuaderno,PNG,79311,USGS ComCat; NOAA/NCEI; geoBoundaries; Natural Earth,CC BY 4.0
+completitud_tasa_anual.png,Figura del cuaderno,PNG,86057,USGS ComCat; NOAA/NCEI; geoBoundaries; Natural Earth,CC BY 4.0
+cortes_franjas.png,Figura del cuaderno,PNG,296717,USGS ComCat; NOAA/NCEI; geoBoundaries; Natural Earth,CC BY 4.0
+cortes_transversales.png,Figura del cuaderno,PNG,837453,USGS ComCat; NOAA/NCEI; geoBoundaries; Natural Earth,CC BY 4.0
+gutenberg_richter.png,Figura del cuaderno,PNG,107524,USGS ComCat; NOAA/NCEI; geoBoundaries; Natural Earth,CC BY 4.0
+mapa_estatico_sismicidad.png,Figura del cuaderno,PNG,674947,USGS ComCat; NOAA/NCEI; geoBoundaries; Natural Earth,CC BY 4.0
+profundidad_focal.png,Figura del cuaderno,PNG,180984,USGS ComCat; NOAA/NCEI; geoBoundaries; Natural Earth,CC BY 4.0
+sismicidad_temporal.png,Figura del cuaderno,PNG,120530,USGS ComCat; NOAA/NCEI; geoBoundaries; Natural Earth,CC BY 4.0
+variacion_estacional.png,Figura del cuaderno,PNG,90968,USGS ComCat; NOAA/NCEI; geoBoundaries; Natural Earth,CC BY 4.0
+mapa_animado_sismicidad.html,Mapa interactivo de epicentros,HTML,1940730,USGS ComCat; NOAA/NCEI,CC BY 4.0
+mapa_sismicidad_colombia.html,Mapa interactivo de epicentros,HTML,6224788,USGS ComCat; NOAA/NCEI,CC BY 4.0
+animacion_sismicidad.mp4,Animación temporal de la sismicidad,MP4,186440,USGS ComCat,CC BY 4.0

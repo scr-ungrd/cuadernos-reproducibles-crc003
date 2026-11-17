@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Si usa este cuaderno, cítelo con los metadatos de este archivo."
+type: software
+title: "Análisis de sismicidad de Colombia con el catálogo del USGS"
+authors:
+  - name: "Subdirección para el Conocimiento del Riesgo, Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD)"
+repository-code: "https://github.com/scr-ungrd/cuadernos-reproducibles-crc003"
+url: "https://scr-ungrd.github.io/cuadernos-reproducibles-crc003/"
+# doi: "10.5281/zenodo.<completar tras archivar el release>"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - sismicidad
+  - Colombia
+  - USGS
+  - Gutenberg-Richter
+  - amenaza sísmica
+  - gestión del riesgo de desastres

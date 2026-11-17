@@ -1,0 +1,94 @@
+{
+  "id": "https://github.com/scr-ungrd/cuadernos-reproducibles-crc003/tree/main#ficha-cordoba",
+  "title": "Ficha sísmica del departamento de Córdoba y su entorno de 100 km",
+  "description": "Indicadores sísmicos de Córdoba calculados con el catálogo ampliado del USGS y los límites de geoBoundaries: sismos en el entorno, magnitud de completitud, valor b de Gutenberg-Richter, periodos de retorno y mayores sismos. Es un piloto sin validar por una persona experta.",
+  "risk_data_type": [
+    "hazard"
+  ],
+  "publisher": {
+    "name": "Subdirección para el Conocimiento del Riesgo, Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD)",
+    "url": "https://scr-ungrd.github.io/cuadernos-reproducibles-crc003/"
+  },
+  "contact_point": {
+    "name": "Subdirección para el Conocimiento del Riesgo",
+    "email": "conocimiento@gestiondelriesgo.gov.co"
+  },
+  "creator": {
+    "name": "Subdirección para el Conocimiento del Riesgo, Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD)",
+    "url": "https://github.com/scr-ungrd"
+  },
+  "spatial": {
+    "scale": "sub-national",
+    "countries": [
+      "COL"
+    ],
+    "gazetteer_entries": [
+      {
+        "id": "23",
+        "scheme": "DIVIPOLA",
+        "description": "Córdoba"
+      }
+    ]
+  },
+  "temporal": {
+    "start": "1900-10-29",
+    "end": "2026-11-15"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "rights": "Derivado de datos del USGS (dominio público) y de límites de geoBoundaries (ODbL 1.0, fuente OpenStreetMap); reconocer a ambas fuentes.",
+  "version": "2026-11-16",
+  "resources": [
+    {
+      "id": "ficha-json",
+      "title": "Indicadores de la ficha",
+      "description": "JSON con 17 claves.",
+      "download_url": "https://raw.githubusercontent.com/scr-ungrd/cuadernos-reproducibles-crc003/main/ficha_sismica_cordoba.json",
+      "format": "JSON"
+    },
+    {
+      "id": "ficha-md",
+      "title": "Ficha en texto",
+      "description": "Los mismos indicadores en Markdown.",
+      "download_url": "https://raw.githubusercontent.com/scr-ungrd/cuadernos-reproducibles-crc003/main/ficha_sismica_cordoba.md",
+      "format": "Markdown"
+    }
+  ],
+  "hazard": {
+    "event_sets": [
+      {
+        "id": "ficha-cordoba",
+        "hazards": [
+          {
+            "id": "ficha-cordoba-sismo",
+            "type": "earthquake",
+            "process": "rupture",
+            "intensity_measure": "Mag:-"
+          }
+        ],
+        "analysis_type": "empirical",
+        "calculation_method": "observed"
+      }
+    ]
+  },
+  "lineage": {
+    "description": "Los indicadores se calculan con indicadores_sismicos() (sección 16 del cuaderno): distancia de cada evento a la frontera del departamento, magnitud de completitud de 4,5 desde 1973, valor b por el estimador de Aki-Utsu y periodos de retorno con la tasa de sismos completos.",
+    "sources": [
+      {
+        "id": "usgs-comcat",
+        "name": "Catálogo de sismos del USGS (ComCat)",
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query",
+        "citation": "U.S. Geological Survey. (s. f.). Servicio FDSN Event del catálogo de sismos ComCat [Conjunto de datos]. https://earthquake.usgs.gov/fdsnws/event/1/query",
+        "type": "dataset",
+        "license": "Dominio público (USGS)"
+      },
+      {
+        "id": "geoboundaries-col-adm1",
+        "name": "geoBoundaries gbOpen, Colombia ADM1 (simplificado)",
+        "url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/COL/ADM1/geoBoundaries-COL-ADM1_simplified.geojson",
+        "citation": "geoBoundaries. (s. f.). gbOpen COL ADM1, versión simplificada, commit 9469f09 [Conjunto de datos]. https://github.com/wmgeolab/geoBoundaries",
+        "type": "dataset",
+        "license": "https://opendatacommons.org/licenses/odbl/1-0/"
+      }
+    ]
+  }
+}

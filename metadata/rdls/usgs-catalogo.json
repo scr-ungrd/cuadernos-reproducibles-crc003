@@ -1,0 +1,132 @@
+{
+  "id": "https://github.com/scr-ungrd/cuadernos-reproducibles-crc003/tree/main#usgs-catalogo",
+  "title": "Catálogo sísmico del USGS para Colombia y su área de influencia, 1900-2026",
+  "description": "Dos consultas al catálogo ComCat del USGS con fecha de corte del 2026-11-16: el catálogo base (4 769 eventos de M ≥ 3,0 desde 2000) y el catálogo ampliado (11 085 terremotos de M ≥ 2,5 desde 1900). La medida de intensidad es la magnitud, que mezcla tipos (Mw, mb, Ml, Ms) sin homogeneizar.",
+  "risk_data_type": [
+    "hazard"
+  ],
+  "publisher": {
+    "name": "Subdirección para el Conocimiento del Riesgo, Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD)",
+    "url": "https://scr-ungrd.github.io/cuadernos-reproducibles-crc003/"
+  },
+  "contact_point": {
+    "name": "Subdirección para el Conocimiento del Riesgo",
+    "email": "conocimiento@gestiondelriesgo.gov.co"
+  },
+  "creator": {
+    "name": "Subdirección para el Conocimiento del Riesgo, Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD)",
+    "url": "https://github.com/scr-ungrd"
+  },
+  "spatial": {
+    "scale": "regional",
+    "countries": [
+      "COL",
+      "ECU",
+      "PAN",
+      "PER",
+      "VEN",
+      "BRA"
+    ],
+    "bbox": [
+      -84.0,
+      -5.0,
+      -65.0,
+      16.0
+    ]
+  },
+  "temporal": {
+    "start": "1900-10-29",
+    "end": "2026-11-15"
+  },
+  "license": "Dominio público (USGS)",
+  "rights": "Datos del USGS, dominio público de EE. UU.; reconocer la fuente.",
+  "version": "2026-11-16",
+  "resources": [
+    {
+      "id": "catalogo-base",
+      "title": "Catálogo base, M ≥ 3,0, 2000-2026",
+      "description": "4 769 eventos del catálogo ComCat.",
+      "download_url": "https://raw.githubusercontent.com/scr-ungrd/cuadernos-reproducibles-crc003/main/data/usgs_catalogo_m3_2000-2026-11-16.csv",
+      "format": "CSV",
+      "spatial": {
+        "scale": "regional",
+        "countries": [
+          "COL",
+          "ECU",
+          "PAN",
+          "PER",
+          "VEN",
+          "BRA"
+        ],
+        "bbox": [
+          -82.0,
+          -5.0,
+          -65.0,
+          13.0
+        ]
+      },
+      "temporal": {
+        "start": "2000-01-15",
+        "end": "2026-11-13"
+      }
+    },
+    {
+      "id": "catalogo-ampliado",
+      "title": "Catálogo ampliado, M ≥ 2,5, 1900-2026",
+      "description": "11 085 terremotos del catálogo ComCat.",
+      "download_url": "https://raw.githubusercontent.com/scr-ungrd/cuadernos-reproducibles-crc003/main/data/usgs_catalogo_ampliado_1900-2026-11-16.csv",
+      "format": "CSV",
+      "spatial": {
+        "scale": "regional",
+        "countries": [
+          "COL",
+          "ECU",
+          "PAN",
+          "PER",
+          "VEN",
+          "BRA"
+        ],
+        "bbox": [
+          -84.0,
+          -5.0,
+          -66.0,
+          16.0
+        ]
+      },
+      "temporal": {
+        "start": "1900-10-29",
+        "end": "2026-11-15"
+      }
+    }
+  ],
+  "hazard": {
+    "event_sets": [
+      {
+        "id": "catalogo-usgs",
+        "hazards": [
+          {
+            "id": "catalogo-usgs-sismo",
+            "type": "earthquake",
+            "process": "rupture",
+            "intensity_measure": "Mag:-"
+          }
+        ],
+        "analysis_type": "empirical",
+        "calculation_method": "observed"
+      }
+    ]
+  },
+  "lineage": {
+    "description": "Catálogo descargado sin modificar con scripts/descargar_catalogo.py y una fecha de corte fija. Las dos consultas reproducen los conteos de las salidas guardadas del cuaderno.",
+    "sources": [
+      {
+        "id": "usgs-comcat",
+        "name": "Catálogo de sismos del USGS (ComCat)",
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query",
+        "citation": "U.S. Geological Survey. (s. f.). Servicio FDSN Event del catálogo de sismos ComCat [Conjunto de datos]. https://earthquake.usgs.gov/fdsnws/event/1/query",
+        "type": "dataset",
+        "license": "Dominio público (USGS)"
+      }
+    ]
+  }
+}
