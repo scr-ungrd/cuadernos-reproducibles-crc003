@@ -31,7 +31,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           pip install --quiet \
-            requests pandas numpy matplotlib folium scipy plotly \
+            requests pandas numpy matplotlib folium scipy plotly imageio-ffmpeg \
             jupyter ipykernel nbconvert
 
       - name: Install MyST

@@ -21,6 +21,9 @@ dependencies:
 
   # Interactive maps
   - plotly>=5.18
+  - pip
+  - pip:
+      - imageio-ffmpeg
   - folium>=0.16
   - branca>=0.7
 
