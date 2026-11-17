@@ -118,7 +118,8 @@ project:
 site:
   template: https://github.com/myst-templates/article-theme/archive/4acce1eba558b301c2aadca99a7804aa6e294e1e.zip
   options:
-    logo_text: "Riesgos · UNGRD"
+    logo_text: "Cuadernos · UNGRD"
+    style: ./css/home.css
     primary_color: "#0154a5"
     secondary_color: "#ffffff"
     accent_color: "#2563eb"
@@ -131,9 +132,6 @@ site:
     - title: "Repositorio"
       url: https://github.com/scr-ungrd/cuadernos-reproducibles-crc003
   actions:
-    - title: "Cuadernos reproducibles"
-      url: https://scr-ungrd.github.io/cuadernos-reproducibles/
-      static: true
     - title: "Abrir en Colab"
       url: https://colab.research.google.com/github/scr-ungrd/cuadernos-reproducibles-crc003/blob/main/sismicidad-colombia.ipynb
       static: false
