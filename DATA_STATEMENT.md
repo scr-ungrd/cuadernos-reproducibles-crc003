@@ -20,7 +20,9 @@ Los 18 archivos publicados (catálogos, ficha departamental, figuras, mapas y an
 | Catálogos del USGS (`data/`) | Dominio público (USGS) |
 | Ficha, figuras, mapas y animación | CC BY 4.0, con reconocimiento al USGS y a geoBoundaries/OpenStreetMap |
 
-Los límites de geoBoundaries (ODbL 1.0, fuente OpenStreetMap) obligan a atribuir y a mantener la ODbL sobre las bases de datos derivadas; los mapas y figuras que solo los muestran son «obras producidas» y requieren atribución y aviso de licencia. Las tablas que redistribuyan la geometría quedan bajo ODbL. <confirmar con asesoría jurídica>
+Los límites de geoBoundaries (ODbL 1.0, fuente OpenStreetMap) obligan a atribuir y a mantener la ODbL sobre las bases de datos derivadas; los mapas y figuras que solo los muestran son «obras producidas» y requieren atribución y aviso de licencia. Las tablas que redistribuyan la geometría quedan bajo ODbL.
+
+**Revisión de licencias (2026-11-17, análisis documental; no es dictamen de un abogado).** La API de geoBoundaries declara para Colombia ADM1 la licencia ODbL 1.0 con fuente OpenStreetMap (build del 2023-12-12). El repositorio no copia la geometría: el cuaderno la descarga en cada ejecución desde una versión fija (`9469f09`), y `ficha_sismica_cordoba.json` contiene solo conteos y estadísticas, sin geometría. Por eso no se redistribuye una base de datos derivada. Los mapas y la animación son «obras producidas» en términos de la ODbL: pueden publicarse bajo CC BY 4.0 si llevan el aviso «Contiene datos de OpenStreetMap, © colaboradores de OpenStreetMap, ODbL 1.0» y la mención de geoBoundaries. Si un cambio posterior incluye la geometría en el repositorio o en un archivo de datos, ese archivo debe quedar bajo ODbL.
 
 ## Datos con acceso restringido
 
