@@ -47,9 +47,9 @@ project:
   subject: "Amenaza sísmica en Colombia"
 
   venue:
-    title: "Riesgos · UNGRD Cuadernos Reproducibles"
-    short_title: "Riesgos UNGRD"
-    url: https://scr-ungrd.github.io/riesgos
+    title: "Cuadernos Reproducibles de Conocimiento del Riesgo · UNGRD"
+    short_title: "Cuadernos reproducibles"
+    url: https://scr-ungrd.github.io/cuadernos-reproducibles/
 
   license:
     code: MIT
@@ -126,11 +126,14 @@ site:
       binderhub_url: https://mybinder.org
       thebe: true
   nav:
-    - title: "Inicio del proyecto"
-      url: https://scr-ungrd.github.io/riesgos
+    - title: "← Cuadernos reproducibles"
+      url: https://scr-ungrd.github.io/cuadernos-reproducibles/
     - title: "Repositorio"
       url: https://github.com/scr-ungrd/cuadernos-reproducibles-crc003
   actions:
+    - title: "Cuadernos reproducibles"
+      url: https://scr-ungrd.github.io/cuadernos-reproducibles/
+      static: true
     - title: "Abrir en Colab"
       url: https://colab.research.google.com/github/scr-ungrd/cuadernos-reproducibles-crc003/blob/main/sismicidad-colombia.ipynb
       static: false
