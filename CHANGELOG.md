@@ -2,7 +2,7 @@
 
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
-## Sin publicar (0.1.0)
+## [0.1.0] - 2026-11-16
 
 ### Agregado
 - Cuaderno de sismicidad de Colombia (2026-11-16): descarga del catálogo del USGS, completitud, Gutenberg-Richter, profundidad focal, estacionalidad, mapas, animación, cortes transversales, vista 3D y ficha departamental de Córdoba.
@@ -16,4 +16,5 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 - `images/banner.png` se genera con `scripts/generar_banner.py` desde el catálogo real. La imagen anterior no se generaba en el repositorio y no reproducía la sismicidad del catálogo.
 
 ### Pendiente
+- Actualizar `DATA_STATEMENT.md`, el README y el RDLS con el DOI de la versión archivada en Zenodo.
 - Confirmar la licencia de la base de sismos de NOAA/NCEI, aplicar la prueba CARE y archivar un *release* en Zenodo.

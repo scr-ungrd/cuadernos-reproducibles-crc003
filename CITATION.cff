@@ -2,6 +2,8 @@ cff-version: 1.2.0
 message: "Si usa este cuaderno, cítelo con los metadatos de este archivo."
 type: software
 title: "Análisis de sismicidad de Colombia con el catálogo del USGS"
+version: "0.1.0"
+date-released: "2026-11-16"
 authors:
   - name: "Subdirección para el Conocimiento del Riesgo, Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD)"
 repository-code: "https://github.com/scr-ungrd/cuadernos-reproducibles-crc003"
