@@ -5,6 +5,9 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 ## [0.1.0] - 2026-11-16
 
 ### Agregado
+- `MODEL_CARD.md` (Estándar de modelos); `DATA_STATEMENT.md`, la ficha, el diccionario, `AI_USE.md` y este historial como documentos de apoyo del sitio.
+- Identificadores y fechas de las fuentes en `metadata/sources.csv`.
+- RDLS del catálogo del USGS: la licencia usa el código CC0 de la lista del esquema (dominio público de EE. UU.) en lugar de texto libre.
 - Cuaderno de sismicidad de Colombia (2026-11-16): descarga del catálogo del USGS, completitud, Gutenberg-Richter, profundidad focal, estacionalidad, mapas, animación, cortes transversales, vista 3D y ficha departamental de Córdoba.
 - `data/` con los dos catálogos del USGS fijados al 2026-11-16 y `scripts/descargar_catalogo.py`.
 - Carpeta `metadata/`: `sources.csv`, `data_catalog.csv`, `DATA_DICTIONARY.md`, `descargas.csv` y 2 archivos RDLS 1.0.0.

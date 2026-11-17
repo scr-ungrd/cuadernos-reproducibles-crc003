@@ -38,7 +38,7 @@
     "start": "1900-10-29",
     "end": "2026-11-15"
   },
-  "license": "Dominio público (USGS)",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "rights": "Datos del USGS, dominio público de EE. UU.; reconocer la fuente.",
   "version": "2026-11-16",
   "resources": [
@@ -125,7 +125,7 @@
         "url": "https://earthquake.usgs.gov/fdsnws/event/1/query",
         "citation": "U.S. Geological Survey. (s. f.). Servicio FDSN Event del catálogo de sismos ComCat [Conjunto de datos]. https://earthquake.usgs.gov/fdsnws/event/1/query",
         "type": "dataset",
-        "license": "Dominio público (USGS)"
+        "license": "https://creativecommons.org/publicdomain/zero/1.0/"
       }
     ]
   }

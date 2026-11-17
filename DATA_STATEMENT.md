@@ -34,7 +34,8 @@ Ninguno.
 ## Disponibilidad de código
 
 - Repositorio: <https://github.com/scr-ungrd/cuadernos-reproducibles-crc003>. Licencia MIT.
-- Versión: 0.1.0 sin publicar. Sin DOI: falta archivar un *release* en Zenodo.
+- Versión: 0.1.0 (2026-11-16). Sin DOI: falta archivar un *release* en Zenodo.
+- Ficha del modelo: [`MODEL_CARD.md`](MODEL_CARD.md), conforme al Estándar de modelos.
 - Software: [`environment.yml`](environment.yml).
 
 ## Validación técnica y limitaciones

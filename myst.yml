@@ -89,6 +89,11 @@ project:
 
   toc:
     - file: sismicidad-colombia.ipynb
+    - file: DATA_STATEMENT.md
+    - file: MODEL_CARD.md
+    - file: metadata/DATA_DICTIONARY.md
+    - file: AI_USE.md
+    - file: CHANGELOG.md
 
   jupyter: true
 
