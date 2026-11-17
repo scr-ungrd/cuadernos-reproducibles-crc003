@@ -29,7 +29,7 @@ Ninguno.
 ## Revisión CARE
 
 - Los datos son sismos y límites administrativos; no contienen datos personales. La base de NOAA/NCEI aporta el número de víctimas por evento, sin identificación individual.
-- El análisis departamental usa límites administrativos y no datos de comunidades. ¿Los territorios étnicos de Córdoba o de otros departamentos exigen consulta antes de publicar fichas? <confirmar>.
+- El análisis departamental usa límites administrativos y no datos de comunidades. ¿Los territorios étnicos de Córdoba o de otros departamentos exigen consulta antes de publicar fichas? Sí: se hará la consulta correspondiente antes de publicar fichas que los involucren.
 
 ## Disponibilidad de código
 
@@ -47,4 +47,4 @@ Ninguno.
 ## Compromiso de preservación
 
 - Responsable: Subdirección para el Conocimiento del Riesgo, UNGRD (conocimiento@gestiondelriesgo.gov.co).
-- Los datos se conservarán al menos cinco años después de la publicación. <confirmar el compromiso institucional>
+- Los datos se conservarán al menos cinco años después de la publicación. La SCR-UNGRD asume ese compromiso (confirmado el 2026-11-17).

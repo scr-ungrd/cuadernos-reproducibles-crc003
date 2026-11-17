@@ -9,7 +9,7 @@ Conforme al «Estándar de modelos» de la colección de Cuadernos Reproducibles
 - **Uso previsto:** caracterizar la sismicidad catalogada de Colombia y su área de influencia con fines educativos y de método (por qué un modelo estadístico: el catálogo es una muestra de eventos y no hay una física simple que la describa).
 - **Usos no previstos:** estimar amenaza sísmica o riesgo (no incluye exposición ni vulnerabilidad ni amenaza dependiente del tiempo), reemplazar el catálogo del Servicio Geológico Colombiano y tomar decisiones de gestión.
 - **Límites de validez:** caja de búsqueda de −5° a 13° N y −82° a −65° O (catálogo base) y de −5° a 16° N y −84° a −66° O (ampliado); incluye países vecinos; completo desde M ≈ 4,5.
-- **Revisión previa a una decisión:** una persona experta en sismología. <confirmar quién>
+- **Revisión previa a una decisión:** una persona experta en sismología. La revisión la coordina Mauricio Romero Torres (SCR-UNGRD).
 
 ## 2. Datos del modelo
 
@@ -50,11 +50,11 @@ Conforme al «Estándar de modelos» de la colección de Cuadernos Reproducibles
 
 - **No hacer daño:** una *b* o una ficha departamental podrían leerse como probabilidad de sismos. El cuaderno declara que describe amenaza catalogada, no riesgo.
 - **Sesgos:** cobertura desigual de estaciones y detección en el tiempo (el crecimiento aparente de eventos es de instrumentación); la caja incluye países vecinos.
-- **Comunidades:** el análisis departamental usa límites administrativos y no datos de comunidades. <confirmar si los territorios étnicos exigen consulta>
+- **Comunidades:** el análisis departamental usa límites administrativos y no datos de comunidades. Sí exigen consulta antes de publicar fichas que los involucren.
 - **Explicabilidad:** el método es estadístico y está descrito con sus ecuaciones en el cuaderno.
 
 ## 8. Documentación y ciclo de vida
 
 - `README.md`, `CHANGELOG.md`, `CITATION.cff`, `DATA_STATEMENT.md` y `AI_USE.md`.
-- **Obsolescencia:** el análisis se rehace cuando se actualice el catálogo o cuando se integre el Catálogo Sísmico Integrado del SGC. <confirmar quién decide>
+- **Obsolescencia:** el análisis se rehace cuando se actualice el catálogo o cuando se integre el Catálogo Sísmico Integrado del SGC. Decide Mauricio Romero Torres (SCR-UNGRD).
 - Uso de IA declarado en `AI_USE.md`. No se publica en un repositorio de modelos.
