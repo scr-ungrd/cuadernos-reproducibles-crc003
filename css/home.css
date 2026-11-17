@@ -51,3 +51,22 @@
   background-color: rgba(17, 24, 39, 0.95);
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='%23d1d5db'%3E%3Cpath d='M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z'/%3E%3Cpath d='m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z'/%3E%3C/svg%3E");
 }
+
+/* Botón de tema claro/oscuro: mismo círculo sólido que el icono de casa, para que se lea sobre el color del encabezado. */
+.myst-theme-button {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border-color: rgb(209, 213, 219) !important;
+  color: rgb(55, 65, 81) !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+.myst-theme-button:hover {
+  background-color: rgb(229, 231, 235) !important;
+}
+.dark .myst-theme-button {
+  background-color: rgba(17, 24, 39, 0.95) !important;
+  border-color: rgb(107, 114, 128) !important;
+  color: rgb(209, 213, 219) !important;
+}
+.dark .myst-theme-button:hover {
+  background-color: rgb(31, 41, 55) !important;
+}
