@@ -2,12 +2,10 @@
 
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
-## [Sin publicar]
+## [0.1.0] - 2026-11-17
 
 ### Cambiado
 - La base de sismos significativos de NOAA/NCEI se versiona en `data/noaa_sismos_significativos_colombia-2026-11-16.csv` (83 eventos) y el cuaderno la lee de ahí en lugar de consultar la API. Licencia: dominio público/CC0 según la política de NCEI; los metadatos del conjunto indican acceso sin restricciones (revisado el 2026-11-17).
-
-## [0.1.0] - 2026-11-16
 
 ### Agregado
 - `MODEL_CARD.md` (Estándar de modelos); `DATA_STATEMENT.md`, la ficha, el diccionario, `AI_USE.md` y este historial como documentos de apoyo del sitio.
