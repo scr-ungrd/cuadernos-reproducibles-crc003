@@ -14,7 +14,7 @@ Conforme al «Estándar de modelos» de la colección de Cuadernos Reproducibles
 ## 2. Datos del modelo
 
 - Catálogos del USGS (ComCat) descargados el 2026-11-16: 4 769 eventos (M ≥ 3,0, 2000–2026) y 11 085 (M ≥ 2,5, 1900–2026). Dominio público; `data/` y `metadata/sources.csv`.
-- Complementos (solo descriptivos): Global Significant Earthquake Database de NOAA/NCEI (licencia por confirmar, no se copia), geoBoundaries (ODbL 1.0) y Natural Earth (dominio público).
+- Complementos (solo descriptivos): Global Significant Earthquake Database de NOAA/NCEI (dominio público/CC0 de NCEI; copia en `data/`), geoBoundaries (ODbL 1.0) y Natural Earth (dominio público).
 - **Hoja de datos:** `metadata/DATA_DICTIONARY.md` y `DATA_STATEMENT.md`. Sin datos personales.
 - **Etiquetas y calidad:** las magnitudes mezclan tipos (Mw, mb, Ml, Ms) sin homogeneizar; muchas profundidades antiguas son valores fijos asignados por la agencia; las magnitudes históricas se derivan de intensidades.
 - Los datos no se parten en entrenamiento y prueba: el modelo es una estimación sobre todo el catálogo por encima de Mc. No hay datos sintéticos.

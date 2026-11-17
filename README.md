@@ -33,7 +33,7 @@ Las consultas al USGS tienen una fecha de corte fija (2026-11-16) y reproducen l
 
 ## Licencia
 
-Código bajo licencia MIT; texto y figuras bajo CC BY 4.0. Los catálogos del USGS son de dominio público. Los límites de geoBoundaries están bajo ODbL 1.0 y Natural Earth es de dominio público; la licencia de la base de sismos de NOAA/NCEI está por confirmar (véase `metadata/sources.csv`).
+Código bajo licencia MIT; texto y figuras bajo CC BY 4.0. Los catálogos del USGS son de dominio público. Los límites de geoBoundaries están bajo ODbL 1.0 y Natural Earth es de dominio público; la base de sismos significativos de NOAA/NCEI es de dominio público en EE. UU. y NCEI aplica CC0 a nivel internacional (véase `metadata/sources.csv`).
 
 ## Cita y DOI
 

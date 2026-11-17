@@ -7,7 +7,7 @@ Cuaderno CRC003: análisis de sismicidad de Colombia con el catálogo del USGS. 
 Las cinco fuentes, con su dirección exacta, consulta, licencia y restricciones, están en [`metadata/sources.csv`](metadata/sources.csv). Todas se obtienen sin credenciales y sin pago.
 
 - **Catálogo de sismos del USGS (ComCat):** dominio público de EE. UU.; reconocer al USGS. Dos consultas con fecha de corte fija del 2026-11-16, que reproducen `scripts/descargar_catalogo.py` y están en `data/`: el catálogo base (4 769 eventos, M ≥ 3,0 desde 2000) y el ampliado (11 085 terremotos, M ≥ 2,5 desde 1900). Coinciden con las salidas guardadas del cuaderno. El USGS puede revisar eventos pasados; las sumas de verificación están en [`metadata/descargas.csv`](metadata/descargas.csv).
-- **Global Significant Earthquake Database (NOAA/NCEI,** `10.7289/V5TD9V7K`**):** 83 sismos significativos de Colombia por la API de Hazel. **La licencia está por confirmar**, por lo que no se copia al repositorio; el cuaderno la consulta en vivo.
+- **Global Significant Earthquake Database (NOAA/NCEI,** `10.7289/V5TD9V7K`**):** 83 sismos significativos de Colombia por la API de Hazel (consulta del 2026-11-16), con copia en `data/noaa_sismos_significativos_colombia-2026-11-16.csv`. Es de dominio público en EE. UU. y NCEI aplica CC0 a nivel internacional; los metadatos del conjunto indican acceso sin restricciones y piden citar la fuente (revisado el 2026-11-17).
 - **geoBoundaries gbOpen, Colombia ADM1:** ODbL 1.0, fijado al commit `9469f09`. Los productos derivados que lo incorporan reconocen la fuente (OpenStreetMap).
 - **Natural Earth, países 1:50 millones:** dominio público, fijado al commit `9380cca`.
 

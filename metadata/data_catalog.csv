@@ -1,6 +1,7 @@
 archivo,descripcion,formato,tamano_bytes,fuentes,licencia
 data/usgs_catalogo_m3_2000-2026-11-16.csv,"Catálogo base del USGS: 4 769 eventos de M ≥ 3,0 entre 2000-01-01 y 2026-11-16",CSV,875325,USGS ComCat,Dominio público (USGS)
 data/usgs_catalogo_ampliado_1900-2026-11-16.csv,"Catálogo ampliado del USGS: 11 085 terremotos de M ≥ 2,5 entre 1900 y 2026-11-15",CSV,1927142,USGS ComCat,Dominio público (USGS)
+data/noaa_sismos_significativos_colombia-2026-11-16.csv,"Sismos significativos de Colombia de NOAA/NCEI: 83 eventos, 1566 a 2026",CSV,13865,NOAA/NCEI Global Significant Earthquake Database,Dominio público / CC0 (NCEI)
 ficha_sismica_cordoba.json,Indicadores sísmicos del departamento de Córdoba y su entorno de 100 km,JSON,1499,USGS ComCat; NOAA/NCEI; geoBoundaries,CC BY 4.0
 ficha_sismica_cordoba.md,Ficha departamental de Córdoba en texto,Markdown,1247,USGS ComCat; NOAA/NCEI; geoBoundaries,CC BY 4.0
 ficha_sismica_cordoba.png,Ficha departamental de Córdoba en cuatro paneles,PNG,654792,USGS ComCat; NOAA/NCEI; geoBoundaries,CC BY 4.0
