@@ -7,8 +7,6 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: pages
@@ -35,7 +33,7 @@ jobs:
             jupyter ipykernel nbconvert
 
       - name: Install MyST
-        run: npm install -g mystmd
+        run: npm install -g mystmd@1.13.0
 
       - name: Execute notebook
         run: |
@@ -47,8 +45,13 @@ jobs:
         run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-liberation
 
       - name: Install Typst
+        env:
+          TYPST_VERSION: v0.15.0
+          TYPST_SHA256: 59b207df01be2dab9f13e80f73d04d7ff8273ffd46b3dd1b9eef5c60f3eeabea
         run: |
-          curl -fsSL https://github.com/typst/typst/releases/download/v0.15.0/typst-x86_64-unknown-linux-musl.tar.xz | tar -xJ
+          curl -fsSL -o typst.tar.xz "https://github.com/typst/typst/releases/download/${TYPST_VERSION}/typst-x86_64-unknown-linux-musl.tar.xz"
+          echo "${TYPST_SHA256}  typst.tar.xz" | sha256sum -c -
+          tar -xJf typst.tar.xz
           sudo mv typst-x86_64-unknown-linux-musl/typst /usr/local/bin/typst
 
       - name: Build PDF (Typst)
@@ -68,6 +71,9 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

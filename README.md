@@ -20,6 +20,7 @@ Analiza la sismicidad de Colombia con el catálogo público del USGS (2000 a 202
 | `scripts/` | `descargar_catalogo.py`, `generar_banner.py` y `registrar_descargas.py` |
 | `ficha_sismica_cordoba.*`, `*.png`, `*.html`, `*.mp4` | Productos del cuaderno |
 | `DATA_STATEMENT.md`, `CITATION.cff`, `CHANGELOG.md`, `AI_USE.md` | Disponibilidad de datos y de código, cita, historial de cambios y uso de IA |
+| `SECURITY.md`, `metadata/escaneo_seguridad.md` | Política de seguridad y registro del escaneo previo al release |
 
 ## Ejecutar
 
